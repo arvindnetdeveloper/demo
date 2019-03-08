@@ -1,8 +1,45 @@
 {
+"users": [
+    { "id": 1, "name": "Ajay Sharma" },
+    { "id": 2, "name": "Rajesh shah" },
+    { "id": 3, "name": "Kapil Sharma" },
+    { "id": 4, "name": "Ravi Patel" },
+    { "id": 5, "name": "Jay Sharma" }
+  ],  
+"album": [
+    { "id": 1, "albumName": "Photo Art", "userId": 1 },
+    { "id": 2, "albumName": "Gallary Art", "userId": 1 },
+    { "id": 3, "albumName": "Studio Art", "userId": 1 },
+    { "id": 4, "albumName": "Photo Art",  "userId":2 },
+    { "id": 5, "albumName": "Gallary Art", "userId":2 },
+    { "id": 6, "albumName": "Studio Art", "userId": 2 },
+    { "id": 7, "albumName": "Photo Art", "userId": 3 },
+    { "id": 8, "albumName": "Gallary Art", "userId":3 },
+    { "id": 9, "albumName": "Studio Art", "userId": 3 },
+    { "id": 10, "albumName": "Photo Art", "userId": 4 },
+    { "id": 11, "albumName": "Gallary Art", "userId":5 }
+  ],
+  "photoes": [
+    { "id": 1, "imgPath": "https://dummyimage.com/300", "albumId": 1 },
+    { "id": 2, "imgPath": "https://dummyimage.com/640x4:3/", "albumId": 1 },
+    { "id": 3, "imgPath": "https://dummyimage.com/qvga", "albumId": 1 },
+    { "id": 4, "imgPath": "https://dummyimage.com/300",  "albumId":2 },
+    { "id": 5, "imgPath": "https://dummyimage.com/640x4:3/", "albumId":2 },
+    { "id": 6, "imgPath": "https://dummyimage.com/qvga", "albumId": 2 },
+    { "id": 7, "imgPath": "https://dummyimage.com/300", "albumId": 3 },
+    { "id": 8, "imgPath": "https://dummyimage.com/640x4:3/", "albumId":3 },
+    { "id": 9, "imgPath": "https://dummyimage.com/qvga", "albumId": 3 },
+    { "id": 10, "imgPath": "https://dummyimage.com/300", "albumId": 4 },
+    { "id": 11, "imgPath": "https://dummyimage.com/640x4:3/", "albumId":5 },
+    { "id": 12, "imgPath": "https://dummyimage.com/qvga", "albumId": 6 },
+    { "id": 13, "imgPath": "https://dummyimage.com/300", "albumId": 1 },
+    { "id": 14, "imgPath": "https://dummyimage.com/640x4:3/", "albumId": 1 },
+    { "id": 15, "imgPath": "https://dummyimage.com/qvga", "albumId": 1 }
+ ],
   "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+    { "id": 1, "name": "Post 1" },
+    { "id": 2, "name": "Post 2" },
+    { "id": 3, "name": "Post 3" }
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
